@@ -1,0 +1,22 @@
+{
+  "Nutrient" : {
+    "Meat" : {
+      "Carbohydrate" : 0,
+      "Energy" : 54,
+      "Fat" : 5,
+      "Protein" : 7
+    },
+    "Starch" : {
+      "Carbohydrate" : 10,
+      "Energy" : 44,
+      "Fat" : 0,
+      "Protein" : 1
+    },
+    "Vegetable" : {
+      "Carbohydrate" : 5,
+      "Energy" : 28,
+      "Fat" : 0,
+      "Protein" : 2
+    }
+  }
+}

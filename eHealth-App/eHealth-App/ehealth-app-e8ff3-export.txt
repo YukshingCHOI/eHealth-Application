@@ -1,0 +1,40 @@
+{
+  "Nutrient" : {
+    "Fat" : {
+      "Carbohydrate" : 0,
+      "Energy" : 45,
+      "Fat" : 5,
+      "Protein" : 0
+    },
+    "Fruit" : {
+      "Carbohydrate" : 10,
+      "Energy" : 40,
+      "Fat" : 0,
+      "Protein" : 0
+    },
+    "Meat" : {
+      "Carbohydrate" : 0,
+      "Energy" : 54,
+      "Fat" : 5,
+      "Protein" : 7
+    },
+    "Milk" : {
+      "Carbohydrate" : 12,
+      "Energy" : 80,
+      "Fat" : 0,
+      "Protein" : 8
+    },
+    "Starch" : {
+      "Carbohydrate" : 10,
+      "Energy" : 44,
+      "Fat" : 0,
+      "Protein" : 1
+    },
+    "Vegetable" : {
+      "Carbohydrate" : 5,
+      "Energy" : 28,
+      "Fat" : 0,
+      "Protein" : 2
+    }
+  }
+}

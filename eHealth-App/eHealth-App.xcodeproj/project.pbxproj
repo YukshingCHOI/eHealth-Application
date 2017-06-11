@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76763D411EE962C0000C8BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76763D401EE962C0000C8BF2 /* AppDelegate.swift */; };
+		76763D431EE962C0000C8BF2 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76763D421EE962C0000C8BF2 /* Calculation.swift */; };
+		76763D461EE962C0000C8BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76763D441EE962C0000C8BF2 /* Main.storyboard */; };
+		76763D481EE962C0000C8BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76763D471EE962C0000C8BF2 /* Assets.xcassets */; };
+		76763D4B1EE962C0000C8BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76763D491EE962C0000C8BF2 /* LaunchScreen.storyboard */; };
+		76763D531EE96B04000C8BF2 /* Calculation_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76763D521EE96B04000C8BF2 /* Calculation_TableViewCell.swift */; };
+		769617491EEA63A0000A0FD5 /* ehealth-app-e8ff3-export.txt in Resources */ = {isa = PBXBuildFile; fileRef = 769617481EEA63A0000A0FD5 /* ehealth-app-e8ff3-export.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76763D3D1EE962C0000C8BF2 /* eHealth-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eHealth-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76763D401EE962C0000C8BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76763D421EE962C0000C8BF2 /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
+		76763D451EE962C0000C8BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76763D471EE962C0000C8BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76763D4A1EE962C0000C8BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76763D4C1EE962C0000C8BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76763D521EE96B04000C8BF2 /* Calculation_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculation_TableViewCell.swift; sourceTree = "<group>"; };
+		769617481EEA63A0000A0FD5 /* ehealth-app-e8ff3-export.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ehealth-app-e8ff3-export.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76763D3A1EE962C0000C8BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76763D341EE962C0000C8BF2 = {
+			isa = PBXGroup;
+			children = (
+				76763D3F1EE962C0000C8BF2 /* eHealth-App */,
+				76763D3E1EE962C0000C8BF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76763D3E1EE962C0000C8BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76763D3D1EE962C0000C8BF2 /* eHealth-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76763D3F1EE962C0000C8BF2 /* eHealth-App */ = {
+			isa = PBXGroup;
+			children = (
+				76763D401EE962C0000C8BF2 /* AppDelegate.swift */,
+				76763D421EE962C0000C8BF2 /* Calculation.swift */,
+				76763D521EE96B04000C8BF2 /* Calculation_TableViewCell.swift */,
+				76763D441EE962C0000C8BF2 /* Main.storyboard */,
+				76763D471EE962C0000C8BF2 /* Assets.xcassets */,
+				76763D491EE962C0000C8BF2 /* LaunchScreen.storyboard */,
+				76763D4C1EE962C0000C8BF2 /* Info.plist */,
+				769617481EEA63A0000A0FD5 /* ehealth-app-e8ff3-export.txt */,
+			);
+			path = "eHealth-App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76763D3C1EE962C0000C8BF2 /* eHealth-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76763D4F1EE962C0000C8BF2 /* Build configuration list for PBXNativeTarget "eHealth-App" */;
+			buildPhases = (
+				76763D391EE962C0000C8BF2 /* Sources */,
+				76763D3A1EE962C0000C8BF2 /* Frameworks */,
+				76763D3B1EE962C0000C8BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eHealth-App";
+			productName = "eHealth-App";
+			productReference = 76763D3D1EE962C0000C8BF2 /* eHealth-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76763D351EE962C0000C8BF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yukshing CHOI";
+				TargetAttributes = {
+					76763D3C1EE962C0000C8BF2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F52T98A366;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 76763D381EE962C0000C8BF2 /* Build configuration list for PBXProject "eHealth-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76763D341EE962C0000C8BF2;
+			productRefGroup = 76763D3E1EE962C0000C8BF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76763D3C1EE962C0000C8BF2 /* eHealth-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76763D3B1EE962C0000C8BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76763D4B1EE962C0000C8BF2 /* LaunchScreen.storyboard in Resources */,
+				76763D481EE962C0000C8BF2 /* Assets.xcassets in Resources */,
+				769617491EEA63A0000A0FD5 /* ehealth-app-e8ff3-export.txt in Resources */,
+				76763D461EE962C0000C8BF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76763D391EE962C0000C8BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76763D531EE96B04000C8BF2 /* Calculation_TableViewCell.swift in Sources */,
+				76763D431EE962C0000C8BF2 /* Calculation.swift in Sources */,
+				76763D411EE962C0000C8BF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76763D441EE962C0000C8BF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76763D451EE962C0000C8BF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76763D491EE962C0000C8BF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76763D4A1EE962C0000C8BF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76763D4D1EE962C0000C8BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76763D4E1EE962C0000C8BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76763D501EE962C0000C8BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F52T98A366;
+				INFOPLIST_FILE = "eHealth-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YukshingCHOI.eHealth-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		76763D511EE962C0000C8BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F52T98A366;
+				INFOPLIST_FILE = "eHealth-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YukshingCHOI.eHealth-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76763D381EE962C0000C8BF2 /* Build configuration list for PBXProject "eHealth-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76763D4D1EE962C0000C8BF2 /* Debug */,
+				76763D4E1EE962C0000C8BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76763D4F1EE962C0000C8BF2 /* Build configuration list for PBXNativeTarget "eHealth-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76763D501EE962C0000C8BF2 /* Debug */,
+				76763D511EE962C0000C8BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76763D351EE962C0000C8BF2 /* Project object */;
+}
