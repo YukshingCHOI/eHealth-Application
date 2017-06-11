@@ -1,0 +1,1 @@
+Food	Carbohydrate	Protein	Fat	EnergyStarch	10	1	0	44Meat	0	7	5	54Vegetable	5	2	0	28Fruit	10	0	0	40Milk	12	8	0	80Fat	0	0	5	45

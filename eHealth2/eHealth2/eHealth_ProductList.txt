@@ -1,0 +1,1 @@
+Company	Product	A	B	C	D	ECow	Cow A	1	23	4	8	97Nest	Nest A	3	43	2	10	29Nutri	Nutri A	4	58	3	5	87Nest	Nest B	1	49	34	23	94Cow	Cow B	5	58	39	49	56Cow	Cow C	68	39	40	24	42Cow	Cow D	58	93	32	12	45Nest	Nest C	57	57	90	32	43Nutri	Nutri B	43	89	32	19	32Hello	Hello A	43	32	48	29	13
